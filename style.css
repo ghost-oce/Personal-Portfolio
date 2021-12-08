@@ -5,11 +5,15 @@
     padding: 1;
 }
 
+body {
+    background-color: rgb(22, 22, 22);
+}
+
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 }
 
 .navbar ul {
@@ -32,4 +36,22 @@
 .navbar ul li a:hover {
     background-color: cadetblue;
     color: whitesmoke;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+section {
+    background-image: url(./assets/better.jpg);
+    height: 600px;
+    width: 600px;
+    border-radius: 2rem;
+}
+
+section h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    left: 1000px;
+    border: 1.5px solid whitesmoke;
 }

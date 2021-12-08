@@ -40,18 +40,37 @@ body {
     cursor: pointer;
 }
 
-section {
-    background-image: url(./assets/better.jpg);
-    height: 600px;
-    width: 600px;
-    border-radius: 2rem;
-}
-
-section h1 {
-    position: absolute;
+.picture {
+    border-radius: 5%;
+    width: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position:sticky;
+}
+
+.header {
+    font-size: 2rem;
+    margin: 2px 0px;
+    text-align: center;
+    color: rgb(104, 138, 201);
+}
+
+.first {
     color: whitesmoke;
-    left: 1000px;
-    border: 1.5px solid whitesmoke;
+    font-size: 1.5rem;
+    font-weight:lighter; 
+    text-align: center;
+    flex-direction:row;
+    top: 200px;
+}
+
+.aboutme{
+    flex-direction: column;
+    display: flex;
+    padding: 60px;
+    flex-wrap; 
+    text-align: justify;
+
 }

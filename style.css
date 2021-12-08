@@ -24,11 +24,12 @@
     padding: 2px 60px;
 }
 
-.navbar ul li:hover {
+.navbar ul li a {
+        text-decoration: none;
+        color: cornflowerblue;
+}
+
+.navbar ul li a:hover {
     background-color: cadetblue;
     color: whitesmoke;
 }
-
-a {
-    text-decoration: none;
-    color: cornflowerblue;

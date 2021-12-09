@@ -84,7 +84,10 @@ body {
     flex-wrap; 
     text-align: justify;
     background-color: grey;
+    
 }
+
+
 
 .works {
     justify-content: space-between;
@@ -95,4 +98,13 @@ body {
     margin: 60px;
     position: relative;
     box-sizing: border-box;
+}
+
+.contactme{
+    flex-direction: column;
+    display: flex;
+    padding: 60px;
+    flex-wrap; 
+    text-align: justify;
+    background-color: black;
 }

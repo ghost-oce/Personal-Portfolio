@@ -108,3 +108,26 @@ body {
     text-align: justify;
     background-color: black;
 }
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-sizing: border-box; 
+    margin: 60px; 
+    
+}
+
+label {
+    padding: 10x;
+    width: 20px;
+    margin: 20px;
+    border: none;
+    outline: none;
+}
+
+.lfont {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
